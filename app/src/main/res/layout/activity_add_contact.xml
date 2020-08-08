@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_contact">
+
+    <EditText
+        android:id="@+id/et_add_c_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/et_add_c_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone no."
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/et_add_c_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email-Id"
+        android:textSize="26sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="Save"
+        android:id="@+id/b_add_c_save"
+        android:textSize="26sp"/>
+
+
+</LinearLayout>
